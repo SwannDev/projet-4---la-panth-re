@@ -42,7 +42,7 @@ video {
 
 audio:not([controls]) {
     display: none;
-    height: 0
+    height: 0px
 }
 
 [hidden],
@@ -90,7 +90,7 @@ sub,
 sup {
     position: relative;
     font-size: 75%;
-    line-height: 0;
+    line-height: 0px;
     vertical-align: baseline
 }
 
@@ -307,6 +307,8 @@ th {
     font-family: 'Glyphicons Halflings';
     src: url(../fonts/glyphicons-halflings-regular.eot);
     src: url(../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), url(../fonts/glyphicons-halflings-regular.woff2) format('woff2'), url(../fonts/glyphicons-halflings-regular.woff) format('woff'), url(../fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
+    /* Ajout par Swann */
+    font-display: swap;
 }
 
 .glyphicon {
