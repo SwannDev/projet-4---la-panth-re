@@ -40,6 +40,12 @@ a:hover {
     position: relative;
 }
 
+/* Ajout de Swann */ 
+.portfolio-thumb{
+height: 270px;
+width: 270px;
+}
+
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
