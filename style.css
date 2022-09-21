@@ -332,6 +332,37 @@ a:hover {
     text-align: inherit;
 }
 
+/* Modification Swann */
+.col-sm-4{
+    padding-top: 10px;
+}
+
+.col-sm-4 ul{
+    padding-top: 10px;
+}
+
+.col-sm-4 li a{
+    font-weight: bold;
+    font-size: 12px;
+  
+}
+.col-sm-4 li {
+min-width: 48px;
+min-height: 48px;
+}
+
+.comment-Maxime p{
+font-size: 13.5px;
+}
+
+.end-comment p{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/* Modification Swann */
+
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
@@ -540,6 +571,8 @@ a[data-lightbox]:hover::before {
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
     font-size: 32px;
+    /* Ajout de Swann */ 
+    font-display: block;
     width: 50px;
     height: 50px;
     margin-left: -25px;
@@ -652,6 +685,8 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
+    /* Ajout de Swann */
+    font-display: block;
 }
 
 .container {
@@ -688,6 +723,8 @@ p {
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
+    /* Ajout de Swann */
+    font-display: block;
 }
 
 .cta-hero {
@@ -700,7 +737,7 @@ p {
 }
 
 .social {
-    max-width: 400px;
+    max-width: 410px;
     margin: auto auto auto auto;
 }
 
